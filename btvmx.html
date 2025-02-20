@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #277449;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(164, 245, 198);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #1d6485;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #03221e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #afe6c8;
+  color: rgb(3, 56, 17);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Dự án bảo vệ môi trường </h1>
+  <p>xanh sạch đẹp</p>
+</div>
+
+<div class="topnav">
+  <a href="#">trang chủ</a>
+  <a href="#">hoạt động</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Dự án tình nguyện</h2>
+      <h5>ngày 13 ,tháng 2 năm 2025</h5>
+      <div class="fakeimg" style="height:200px;">
+        <img src="https://bvndtp.org.vn/wp-content/uploads/2022/03/bao-ve-moi-tr%C6%B0%C6%A1ng.jpg" alt="" width="850px" height="150px">
+      </div>
+      <p>thông điệp</p>
+      <p>Thông điệp bảo vệ môi trường là một lời kêu gọi và nhắc nhở của chúng ta về tầm quan trọng của việc bảo vệ và duy trì môi trường sống xanh, trong đó chúng ta sống và phát triển </p>
+    </div>
+    <div class="card">
+      <h2>ý nghĩa của việc bảo vệ môi trường</h2>
+      <h5>ngày 13,tháng 2 năm 2025</h5>
+      <div class="fakeimg" style="height:200px;"><img src="https://traidatxanh.com/wp-content/uploads/2021/12/Y-nghia-cua-bao-ve-moi-truong.jpg" alt="" width="850px" height="150"></div>
+      <p>ý nghĩa</p>
+      <p>Khi môi trường được bảo vệ, chúng ta sẽ được hít thở không khí trong lành, uống nước sạch và sử dụng thực phẩm an toàn, từ đó nâng cao chất lượng cuộc sống. Thứ hai, ý nghĩa của việc bảo vệ môi trường là góp phần bảo tồn đa dạng sinh học, duy trì sự cân bằng của hệ sinh thái.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>nghĩa vụ và trách nhiệm của người trẻ và chính bản thân em trong việc bảo vệ môi trường</h2>
+      <div class="fakeimg" style="height:100px;"><img src="https://thonghutbephottaivinhphuc.com/wp-content/uploads/2020/06/trach-nhiem-cua-hoc-sinh-trong-bao-ve-moi-truong.jpg" alt="" width="200" height="75"></div>
+      <p>học sinh cần phải làm gì trong việc bảo vệ môi trường và chính bản thân em phải làm gì?</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p><img src="https://marketplace.canva.com/EAEbiHw2spk/1/0/1600w/canva-xanh-l%C3%A1-s%E1%BA%A1ch-%26-phong-c%C3%A1ch-un-sdg-c%C3%A1-nh%C3%A2n-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-b%C3%A0i-%C4%91%C4%83ng-twitter-tJdeAExbbrU.jpg" alt="" width="250 px" height="150px"></p></div>
+      <div class="fakeimg"><p><img src="https://ktmt.vnmediacdn.com/images/2022/03/16/5-1647399987-hinh-anh-bao-ve-moi-truong-kinhtemoitruong-5.jpg"alt="" width="250 px" height="150px"></p></div>
+    </div>
+    <div class="card">
+      <h3>liên hệ tôi</h3>
+      <p>để bảo vệ môi trường</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>CẢM ƠN VÌ ĐÃ THEO DÕI</h2>
+</div>
+
+</body>
+</html>
